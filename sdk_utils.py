@@ -1,7 +1,7 @@
 from random import randint
 from zlib import crc32
 from hashlib import sha256, sha384, sha512, md5
-from mmh3 import hash, hash128
+from pymmh3 import hash, hash128
 import logging
 
 log = logging.getLogger(__name__)
